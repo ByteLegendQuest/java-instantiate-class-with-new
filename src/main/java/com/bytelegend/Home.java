@@ -13,6 +13,6 @@ public class Home {
 
     // Create a new Cat instance and return it
     public static Cat createNewCat() {
-        Cat catObject = new Cat;
+        return new Cat();
     }
 }
