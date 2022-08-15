@@ -2,7 +2,7 @@ package com.bytelegend;
 
 import com.bytelegend.pet.Cat;
 
-public class Home {
+public return class Home {
     public static Cat cat;
 
     public static void main(String[] args) {
@@ -12,5 +12,7 @@ public class Home {
     }
 
     // Create a new Cat instance and return it
-    public static Cat createNewCat() {}
+    public static Cat createNewCat() {
+        return new cat Cat;
+    }
 }
