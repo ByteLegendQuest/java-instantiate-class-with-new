@@ -2,7 +2,7 @@ package com.bytelegend;
 
 import com.bytelegend.pet.Cat;
 
-public return class Home {
+public class Home {
     public static Cat cat;
 
     public static void main(String[] args) {
