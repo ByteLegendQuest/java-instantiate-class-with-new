@@ -13,7 +13,7 @@ public class Home {
 
     // Create a new Cat instance and return it
     public static Cat createNewCat() {
-        com.bytelegend.pet.Cat new cat1();
+        com.bytelegend.pet.Cat cat1=new Cat();
         return cat1;
     }
 }
