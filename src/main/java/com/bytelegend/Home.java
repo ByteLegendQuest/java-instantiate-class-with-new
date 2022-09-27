@@ -3,7 +3,7 @@ package com.bytelegend;
 import com.bytelegend.pet.Cat;
 
 public class Home {
-    public static Cat cat;
+    public static Cat cat = new Cat();
 
     public static void main(String[] args) {
         System.out.println(cat);
