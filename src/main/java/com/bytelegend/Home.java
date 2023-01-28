@@ -6,14 +6,11 @@ public class Home {
     public static Cat cat;
 
     public static void main(String[] args) {
-        cat = createNewCat();
         System.out.println(cat);
         cat = createNewCat();
         System.out.println(cat);
     }
 
     // Create a new Cat instance and return it
-    public static Cat createNewCat() {
-        return new Cat();
-    }
+    public static Cat createNewCat() {}
 }
