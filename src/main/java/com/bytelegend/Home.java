@@ -12,8 +12,5 @@ public class Home {
     }
 
     // Create a new Cat instance and return it
-    public static Cat createNewCat() {
-        Cat cat = new Cat();
-        return cat;
-    }
+    public static Cat createNewCat() {}
 }
